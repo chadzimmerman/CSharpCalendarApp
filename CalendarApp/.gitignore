@@ -1,0 +1,14 @@
+#Visual Studio
+bin/
+obj/
+*.csproj.user
+*.suo
+.vs/
+
+# Sensitive 
+
+App.config
+
+#NuGet
+
+packages/
