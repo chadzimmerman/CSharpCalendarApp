@@ -56,13 +56,34 @@ This project showcases key software development skills including user authentica
 
 ---
 
-## Usage
+## How to Run
+Set up the MySQL Database
 
-1. Run the application via Visual Studio or the compiled executable.
-2. Login with username: `test` and password: `test`.
-3. Manage customers and schedule appointments according to business rules.
-4. View calendar and reports via the provided UI.
-5. Login history will be recorded automatically.
+Install MySQL Server locally if you don’t have it already.
+
+Run the provided SQL scripts in the following order to create and populate the database:
+
+C969_DB_Setup.sql (creates the database schema)
+
+LoadData.sql (inserts sample data)
+
+You can run these scripts using MySQL Workbench, the MySQL CLI, or any other MySQL client tool.
+
+Configure the Application
+
+Make sure your app’s database connection string matches your local MySQL setup (e.g., username, password, port).
+
+This connection string is typically found in the app’s configuration files or code.
+
+Run the Application
+
+Open the solution in Visual Studio.
+
+Build and run the application.
+
+Login using the username and password: test / test.
+
+
 
 ---
 
