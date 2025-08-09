@@ -1,7 +1,3 @@
-Absolutely! Here's a professional, clear, and concise README for your Calendar Scheduling Application that highlights the project purpose, features, and requirements — perfect for a portfolio or GitHub repo:
-
----
-
 # Calendar Scheduling Application
 
 ## Overview
