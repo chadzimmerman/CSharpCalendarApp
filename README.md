@@ -57,33 +57,26 @@ This project showcases key software development skills including user authentica
 ---
 
 ## How to Run
-Set up the MySQL Database
 
-Install MySQL Server locally if you don’t have it already.
+1. **Set up the MySQL Database**
 
-Run the provided SQL scripts in the following order to create and populate the database:
+   * Install MySQL Server locally if you don’t have it already.
+   * Run the provided SQL scripts in the following order to create and populate the database:
 
-C969_DB_Setup.sql (creates the database schema)
+     * `C969_DB_Setup.sql` (creates the database schema)
+     * `LoadData.sql` (inserts sample data)
+   * You can run these scripts using MySQL Workbench, the MySQL CLI, or any other MySQL client tool.
 
-LoadData.sql (inserts sample data)
+2. **Configure the Application**
 
-You can run these scripts using MySQL Workbench, the MySQL CLI, or any other MySQL client tool.
+   * Make sure your app’s database connection string matches your local MySQL setup (e.g., username, password, port).
+   * This connection string is typically found in the app’s configuration files or code.
 
-Configure the Application
+3. **Run the Application**
 
-Make sure your app’s database connection string matches your local MySQL setup (e.g., username, password, port).
-
-This connection string is typically found in the app’s configuration files or code.
-
-Run the Application
-
-Open the solution in Visual Studio.
-
-Build and run the application.
-
-Login using the username and password: test / test.
-
-
+   * Open the solution in Visual Studio.
+   * Build and run the application.
+   * Login using the username and password: `test` / `test`.
 
 ---
 
